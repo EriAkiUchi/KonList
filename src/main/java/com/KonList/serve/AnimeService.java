@@ -22,7 +22,7 @@ public class AnimeService {
         ConsumeApi consumeApi = new ConsumeApi();
         ConvertData convertData = new ConvertData();
 //        Optional<Anime> optional;
-        String ADDRESS_ANIME_NAME = "https://api.jikan.moe/v4/anime?q=";
+        String ADDRESS_ANIME_NAME = "https://api.tenrai.org/v1/anime?q=";
         String queryParameter = "&limit=5";
 
         String nameParameter = animeName.replaceAll(" ", "+");
